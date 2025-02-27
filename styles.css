@@ -1,0 +1,43 @@
+body{
+    height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+    font-family: "Inter";
+}
+
+
+main{
+    height: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 5%;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    border-radius: 50%;
+    height: 50%;
+    width: 50%;
+}
+
+h2{
+    color: hsl(0, 0%, 100%);
+}
+
+h4{
+    color:hsl(75, 94%, 57%);
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url('assets/fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
