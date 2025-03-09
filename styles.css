@@ -9,16 +9,13 @@ body{
 main{
     height: 600px;
     margin: auto;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
     width: 400px;
     background-color: hsl(0, 0%, 12%);
     border-radius: 5%;
 }
 
-.info, .links{
+main, .info, .links{
     display: flex;
     flex-direction: column;
     align-items: center;
