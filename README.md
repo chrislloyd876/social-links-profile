@@ -45,15 +45,14 @@ Users should be able to:
 
 I learned how to use chaining selectors to make editing easier for multiple elements. I also learned how to use hover for more responsive interaction.
 
-```css
-chaining selectors
+```css chaining selectors
 main, .info, .links{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-'''
-'''css button interaction
+
+```css button interaction
 button:hover{
     background-color: hsl(75, 94%, 57%);
     color: hsl(0, 0%, 8%);
